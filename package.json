@@ -1,0 +1,23 @@
+{
+  "name": "autonomous-web-research-action-system",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Autonomous Web Research & Action System using a 5-Agent Multi-Agent Architecture with Mistral AI, Tavily, and Playwright",
+  "scripts": {
+    "dev:frontend": "npm run dev --prefix frontend",
+    "dev:backend": "python -m uvicorn backend.main:app --reload --port 8000",
+    "test:backend": "python -m pytest backend/tests/test_backend.py -v",
+    "build:frontend": "npm run build --prefix frontend"
+  },
+  "keywords": [
+    "multi-agent",
+    "autonomous-research",
+    "mistral-ai",
+    "tavily",
+    "playwright",
+    "fastapi",
+    "react"
+  ],
+  "author": "Antigravity",
+  "license": "MIT"
+}
